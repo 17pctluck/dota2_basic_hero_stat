@@ -1,0 +1,45 @@
+body{
+  font-family: sans;
+}
+
+li{
+  margin-top: 0.25rem;
+}
+
+h1, h2{
+  text-align: center;
+  background-color: #D0D0D0;
+  border: 10px solid #D0D0D0;
+}
+
+h1::before, h2::before{
+  content: "───── ";
+}
+
+h1::after, h2::after{
+  content: " ─────";
+}
+
+.key{
+  background-color: #EE8EAE;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.key::before{
+  content: "\00a0";
+}
+.key::after{
+  content: "\00a0";
+}
+
+.tool{
+  background-color: #5E8EDE;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.tool::before{
+  content: "\00a0";
+}
+.tool::after{
+  content: "\00a0";
+}
